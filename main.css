@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: skyblue;
+    border: 2px solid black;
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    left: 250px;
+    right: 20px;
+    margin: 50px;
+    padding: 20px;
+    display:inline-block;
+    /* text-align: center; */
+    
+}
+.user{
+    text-align: center;
+    background-color: burlywood;
+}
+#userName{
+    text-align: center;
+    margin: 50px;
+    padding: 2px;
+}
+#phone{
+    position: relative;
+    right : 230px;
+    top: 50px;
+}
+#city{
+    position: relative;
+    right : -50px;
+    top: 40px;
+}
+#email{
+    position: relative;
+    right : 125px;
+    top: 90px;
+}
+#btnAdd{
+    position: relative;
+    right : 125px;
+    top: 150px;
+}
+#userCard{
+    position: relative;
+     right: 50%;
+     top: 70%;
+}
